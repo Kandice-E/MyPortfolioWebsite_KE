@@ -28,7 +28,7 @@ export const portfolioData = {
       id: 1,
       title: 'Winter Sky Arena',
       description: 'A 3D web-based game built with THREE.js, featuring interactive gameplay and immersive graphics. In-progress updates include implementing a genetic algorithm for enemy behavior and round-based combat.',
-      technologies: ['JavaScript', 'Node.js', 'HTML5', 'CSS3', 'GitHub Pages', 'Vite'],
+      technologies: ['JavaScript', 'Node.js', 'HTML', 'CSS', 'GitHub Pages', 'Vite'],
       github: 'https://github.com/Kandice-E/Module6_WinterSkyArena',
       live: 'https://kandice-e.github.io/WinterSkyArena/',
     },
