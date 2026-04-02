@@ -7,20 +7,23 @@ function About({ data }) {
         <h2 className="section-title">About Me</h2>
         <div className="about-content">
           <p>{data.about}</p>
-          <div className="about-stats">
-            <div className="stat">
-              <h3>5+</h3>
-              <p>Years Experience</p>
+          {data.education && (
+            <div className="education-section">
+              <h3>Education</h3>
+              <div className="education-list">
+                {data.education.map((edu, index) => (
+                  <div key={index} className="education-item">
+                    <div className="education-header">
+                      <h4>{edu.degree}</h4>
+                      <span className="graduation-year">{edu.year}</span>
+                    </div>
+                    <p className="school">{edu.school}</p>
+                    {edu.details && <p className="details">{edu.details}</p>}
+                  </div>
+                ))}
+              </div>
             </div>
-            <div className="stat">
-              <h3>20+</h3>
-              <p>Projects Completed</p>
-            </div>
-            <div className="stat">
-              <h3>15+</h3>
-              <p>Happy Clients</p>
-            </div>
-          </div>
+          )}
         </div>
       </div>
     </section>

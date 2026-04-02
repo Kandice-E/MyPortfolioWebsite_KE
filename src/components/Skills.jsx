@@ -17,6 +17,30 @@ function Skills({ data }) {
             </div>
           ))}
         </div>
+        
+        {data.repositories && (
+          <div className="featured-repos">
+            <h3>Featured Repositories</h3>
+            <div className="repos-grid">
+              {data.repositories.map((repo, index) => (
+                <a
+                  key={index}
+                  href={repo.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="repo-card"
+                >
+                  <div className="repo-header">
+                    <h4>{repo.name}</h4>
+                    {repo.stars > 0 && <span className="stars">⭐ {repo.stars}</span>}
+                  </div>
+                  <p>{repo.description}</p>
+                  <span className="repo-link">View on GitHub →</span>
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
       </div>
     </section>
   )

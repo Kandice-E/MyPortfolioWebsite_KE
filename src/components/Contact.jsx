@@ -37,7 +37,7 @@ function Contact({ data }) {
             <p>{data.contactMessage}</p>
             <div className="contact-details">
               <p><strong>Email:</strong> <a href={`mailto:${data.email}`}>{data.email}</a></p>
-              <p><strong>Phone:</strong> <a href={`tel:${data.phone}`}>{data.phone}</a></p>
+              {/* <p><strong>Phone:</strong> <a href={`tel:${data.phone}`}>{data.phone}</a></p> */}
             </div>
             <div className="social-links">
               {data.social.map((link, index) => (
