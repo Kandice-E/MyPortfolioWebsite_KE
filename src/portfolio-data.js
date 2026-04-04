@@ -64,7 +64,7 @@ export const portfolioData = {
     },
     {
       degree: 'Master of Science in Software Systems',
-      school: 'Mercer University',
+      school: 'Mercer University, School of Engineering',
       year: '2026',
       details: 'Current GPA: 4.0, expected graduation in May 2026',
     },
