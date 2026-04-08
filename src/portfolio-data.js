@@ -4,7 +4,7 @@ export const portfolioData = {
   // Personal Information
   name: 'Kandice Estrella',
   title: 'Software Engineer',
-  description: 'I am a recent graduate with a passion for software development and a strong foundation in computer science. I am eager to apply my skills and knowledge to real-world projects and contribute to innovative solutions.',
+  description: 'I am a recent graduate with a passion for web software development and a strong foundation in computer science and mathematics. I am eager to apply my skills and knowledge to real-world projects and contribute to innovative solutions.',
   email: 'kandiceestrella@gmail.com',
   //phone: '+1 (555) 123-4567',
 
