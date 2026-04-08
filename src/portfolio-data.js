@@ -93,5 +93,5 @@ export const portfolioData = {
   ],
 
   // Contact Message
-  contactMessage: 'Feel free to get in touch! I\'m always open to new opportunities.',
+  contactMessage: 'Feel free to get in touch! I\'m always open to new opportunities!',
 }
